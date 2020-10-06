@@ -8,8 +8,28 @@
                 <hr>
                 <ul>
                     <li>
-                        <router-link :to="{ name: 'create', params: { userId } }">
-                            NEW POST
+                        <router-link :to="{ name: 'pages' }">
+                            Paginas
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link :to="{ name: 'read' }">
+                            Posts
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link :to="{ name: 'messages' }">
+                            Berichten
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link :to="{ name: 'users' }">
+                            Gebruikers
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link :to="{ name: 'settings' }">
+                            Instellingen
                         </router-link>
                     </li>
                 </ul>

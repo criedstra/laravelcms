@@ -38,4 +38,12 @@ class Comment extends Model
     {
         return $this->belongsTo(Post::class);
     }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function content()
+    {
+        return $this->belongsTo(Content::class);
+    }
 }

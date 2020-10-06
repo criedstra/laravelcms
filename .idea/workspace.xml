@@ -19,7 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdfdcd07-141b-4eec-b840-041d0f6ccf16" name="Default Changelist" comment="Added comments &lt;- stering point own exploration" />
+    <list default="true" id="fdfdcd07-141b-4eec-b840-041d0f6ccf16" name="Default Changelist" comment="Added comments &lt;- stering point own exploration">
+      <change afterPath="$PROJECT_DIR$/app/Content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_06_175351_create_comments_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Homepage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Homepage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,6 +209,7 @@
       <workItem from="1601885923854" duration="1940000" />
       <workItem from="1601917515728" duration="12387000" />
       <workItem from="1602005169160" duration="3125000" />
+      <workItem from="1602009870813" duration="6382000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <created>1601924175085</created>
@@ -214,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602007703348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added comments &lt;- stering point own exploration">
+      <created>1602009929986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602009929986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +255,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -255,10 +281,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1601832235797" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1602007271729">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1602017157307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1602007271729" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1602017157307" />
     <state x="684" y="397" key="ComposerCompositePathDialog" timestamp="1601881421418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,18 +305,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1601926260604" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602007709232">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602009935624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1602007709232" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1602009935624" />
     <state x="326" y="115" width="1345" height="816" key="dock-window-1" timestamp="1601923452118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="326" y="115" width="1345" height="816" key="dock-window-1/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1601923452118" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1601930031170">
+    <state x="667" y="119" width="697" height="801" key="find.popup" timestamp="1602015890102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1601930031170" />
+    <state x="667" y="119" width="697" height="801" key="find.popup/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1602015890102" />
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601924292511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

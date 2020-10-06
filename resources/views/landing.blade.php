@@ -5,7 +5,7 @@
             <div class="col-md-8 mt-lg-5 mx-auto">
                 <h1 class="my-4 text-center">Welcome to the Blog </h1>
 
-                @foreach ($posts as $post)
+                @foreach ($contents as $post)
                     <div class="card mb-4">
                         <img class="card-img-top" src=" {!! !empty($post->image) ? '/uploads/posts/' . $post->image :  'http://placehold.it/750x300' !!} " alt="Card image cap">
                         <div class="card-body">

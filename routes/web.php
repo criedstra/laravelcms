@@ -15,9 +15,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Auth::routes();
-Route::get('/posts/{post}', 'PostController@single');
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/', 'PostController@all');
-Route::get('/admin/{any}', 'AdminController@index')->where('any', '.*');
+
+//posts
+Route::get('/posts/{post}', 'PostController@single');
+Route::get('/posts', 'PostController@all');
+
+//comments
 Route::get('/{post}/comments', 'CommentController@index');
 Route::post('/{post}/comments', 'CommentController@store');
+
+//content
+Route::get('/', 'ContentController@all');
+Route::get('/{content}', 'ContentController@single');
+
+//admin
+Route::get('/admin/{any}', 'AdminController@index')->where('any', '.*');
