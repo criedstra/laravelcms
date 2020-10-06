@@ -1,4 +1,3 @@
-
 <template>
     <div id="posts">
         <p class="border p-3" v-for="post in posts">
@@ -36,18 +35,17 @@
         </div>
     </div>
 </template>
-<script type="application/javascript">
+<script>
 export default {
-    mounted: function() {
+    mounted() {
         this.getPosts();
     },
     data() {
         return {
-            posts: {}, /* <-2 Maar deze blijft leeg*/
+            posts: {},
             next: null,
             prev: null
-
-        }
+        };
     },
     methods: {
         getPosts(address) {

@@ -1,3 +1,4 @@
+
 <template>
     <div>
         <nav>
@@ -80,7 +81,7 @@ article > header {
     border-bottom: 1px solid #2a3843;
 }
 </style>
-<script type="application/javascript">
+<script>
 export default {
     props: {
         userId: {
