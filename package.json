@@ -24,6 +24,8 @@
     },
     "dependencies": {
         "bootstrap-sass": "^3.4.1",
+        "laravel-echo": "^1.8.1",
+        "pusher-js": "^7.0.0",
         "vue": "^2.6.12",
         "vue-router": "^3.4.5",
         "vuex": "^3.5.1"
